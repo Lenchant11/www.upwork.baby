@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>UpWork — Flexible Microtasks • Honest Pay • Fast Payouts</title>
+  <meta name="description" content="UpWork connects businesses with a global workforce. Complete short verified tasks and get paid. Secure payouts, low fees, and transparent policies." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* custom tiny styles */
+    .glass { background: rgba(255,255,255,0.6); backdrop-filter: blur(6px);} 
+    .hero-gradient { background: linear-gradient(90deg,#0ea5a4 0%, #06b6d4 50%, #7dd3fc 100%);} 
+    .stat-num { font-feature-settings: "tnum" 1, "lnum" 1; }
+    .card-border { border: 1px solid rgba(15,23,42,0.04); }
+  </style>
+</head>
+<body class="bg-gray-50 text-slate-800 antialiased leading-relaxed">
+
+<!-- Header -->
+<header class="bg-white shadow sticky top-0 z-40">
+  <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16">
+      <a href="#" class="flex items-center gap-3">
+        <div class="w-12 h-12 rounded-lg bg-gradient-to-tr from-sky-600 to-cyan-400 flex items-center justify-center text-white font-extrabold">TF</div>
+        <div class="hidden md:block">
+          <div class="font-semibold text-lg">UpWork</div>
+          <div class="text-xs text-slate-500">Microtasks — Honest Pay</div>
+        </div>
+      </a>
+
+      <nav class="hidden lg:flex items-center gap-6 text-sm">
+        <a href="#" class="hover:text-sky-600">Home</a>
+        <a href="#tasks" class="hover:text-sky-600">Tasks</a>
+        <a href="#categories" class="hover:text-sky-600">Categories</a>
+        <a href="#how-it-works" class="hover:text-sky-600">How It Works</a>
+        <a href="#employers" class="hover:text-sky-600">For Employers</a>
+        <a href="#info" class="hover:text-sky-600">Info Center</a>
+        <a href="#help" class="hover:text-sky-600">Help Center</a>
+      </nav>
+
+      <div class="flex items-center gap-3">
+        <a href="#login" class="text-sm text-slate-600 hover:text-slate-900">Log in</a>
+        <a href="#signup" class="inline-flex items-center px-4 py-2 rounded-md bg-sky-600 text-white text-sm font-medium hover:bg-sky-700">Sign up</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero-gradient text-white py-16">
+  <div class="max-w-7xl mx-auto px-6 lg:px-8">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+      <div>
+        <h1 class="text-4xl md:text-5xl font-extrabold leading-tight">Earn more with short verified tasks — flexible, fair, secure</h1>
+        <p class="mt-4 text-lg text-sky-50/90 max-w-2xl">Join thousands of workers who complete simple, verified tasks — surveys, app tests, data labeling and more. Typical workers earn an additional $100–$300 per month depending on time and availability. Payments via PayPal, Payoneer and local wallets.</p>
+
+        <div class="mt-6 flex gap-3 flex-wrap">
+          <a href="#tasks" class="px-5 py-3 bg-white text-sky-700 font-semibold rounded-md shadow">Start Earning</a>
+          <a href="#employers" class="px-5 py-3 border border-white/40 rounded-md">Post a Task</a>
+          <a href="#info" class="px-5 py-3 bg-white/10 rounded-md">Learn How It Works</a>
+        </div>
+
+        <div class="mt-6 grid grid-cols-3 gap-4 max-w-md">
+          <div class="text-center">
+            <div class="text-2xl font-bold">50K+</div>
+            <div class="text-sm">Active Workers</div>
+          </div>
+          <div class="text-center">
+            <div class="text-2xl font-bold">10K+</div>
+            <div class="text-sm">Tasks Completed Daily</div>
+          </div>
+          <div class="text-center">
+            <div class="text-2xl font-bold">$1M+</div>
+            <div class="text-sm">Total Payouts</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="relative">
+        <div class="bg-white/10 glass p-6 rounded-2xl shadow-xl">
+          <div class="flex items-center justify-between">
+            <div>
+              <div class="text-sm text-sky-100">Quick Tasks — High Approval</div>
+              <div class="text-xl font-semibold mt-1">Hot right now</div>
+            </div>
+            <div class="text-right">
+              <div class="text-xs">Avg. payout</div>
+              <div class="text-lg font-bold">$4.20</div>
+            </div>
+          </div>
+
+          <ul class="mt-6 space-y-4">
+            <li class="flex items-start justify-between">
+              <div>
+                <div class="font-semibold">Short Survey — Shopping Habits</div>
+                <div class="text-xs text-sky-50/80">3–5 min</div>
+              </div>
+              <div class="text-sky-50 font-semibold">$1.80</div>
+            </li>
+            <li class="flex items-start justify-between">
+              <div>
+                <div class="font-semibold">App Test — Onboarding Flow</div>
+                <div class="text-xs text-sky-50/80">10–12 min</div>
+              </div>
+              <div class="text-sky-50 font-semibold">$9.00</div>
+            </li>
+            <li class="flex items-start justify-between">
+              <div>
+                <div class="font-semibold">Image Tagging — Objects</div>
+                <div class="text-xs text-sky-50/80">1–2 min</div>
+              </div>
+              <div class="text-sky-50 font-semibold">$0.60</div>
+            </li>
+          </ul>
+
+          <div class="mt-6 flex gap-2">
+            <a href="#tasks" class="px-4 py-2 bg-white text-sky-600 rounded-md">Browse tasks</a>
+            <a href="#signup" class="px-4 py-2 border rounded-md">Join now</a>
+          </div>
+        </div>
+
+        <div class="absolute -right-10 -bottom-12 w-48 h-48 bg-white/5 rounded-full blur-xl"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Tasks Grid + Filters -->
+<section id="tasks" class="max-w-7xl mx-auto px-6 lg:px-8 py-12">
+  <div class="flex items-start gap-8">
+    <!-- left: filters -->
+    <aside class="w-72 hidden lg:block">
+      <div class="bg-white p-4 rounded-xl card-border shadow-sm">
+        <h4 class="font-semibold mb-4">Filter Tasks</h4>
+        <div class="space-y-3 text-sm text-slate-600">
+          <div>
+            <label class="block mb-1">Category</label>
+            <select class="w-full border rounded px-3 py-2 text-sm">
+              <option>All categories</option>
+              <option>Surveys</option>
+              <option>App Testing</option>
+              <option>Data Labeling</option>
+              <option>Moderation</option>
+              <option>Translation</option>
+            </select>
+          </div>
+          <div>
+            <label class="block mb-1">Payout</label>
+            <select class="w-full border rounded px-3 py-2 text-sm">
+              <option>Any</option>
+              <option>Under $1</option>
+              <option>$1–$5</option>
+              <option>$5–$20</option>
+            </select>
+          </div>
+          <div>
+            <label class="block mb-1">Duration</label>
+            <select class="w-full border rounded px-3 py-2 text-sm">
+              <option>Any</option>
+              <option>Under 5 minutes</option>
+              <option>5–15 minutes</option>
+              <option>15–60 minutes</option>
+            </select>
+          </div>
+          <div>
+            <label class="block mb-1">Sort by</label>
+            <select class="w-full border rounded px-3 py-2 text-sm">
+              <option>Popular</option>
+              <option>Newest</option>
+              <option>Highest payout</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-6 bg-white p-4 rounded-xl card-border shadow-sm">
+        <h4 class="font-semibold mb-3">My Stats</h4>
+        <div class="text-sm text-slate-600">
+          <div class="flex justify-between"><span>Completed tasks</span><span class="font-semibold">128</span></div>
+          <div class="flex justify-between mt-2"><span>Earnings</span><span class="font-semibold">$372.40</span></div>
+          <div class="flex justify-between mt-2"><span>Approval rate</span><span class="font-semibold">98%</span></div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- main: task cards -->
+    <div class="flex-1">
+      <div class="flex items-center justify-between mb-6">
+        <div>
+          <h2 class="text-2xl font-bold">Popular Tasks</h2>
+          <p class="text-sm text-slate-600">Curated tasks with high completion rates and fair payouts</p>
+        </div>
+        <div class="flex items-center gap-2">
+          <div class="text-sm text-slate-500">Search</div>
+          <input type="text" placeholder="Search tasks" class="border rounded px-3 py-2 text-sm" />
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- many cards to expand page length and richness -->
+
+        <!-- Card 1 -->
+        <article class="bg-white p-5 rounded-xl shadow hover:shadow-lg">
+          <div class="flex justify-between items-start">
+            <div>
+              <h3 class="font-semibold">Survey: Daily Shopping Habits</h3>
+              <p class="text-xs text-slate-500 mt-1">Short questionnaire — demographics & recent purchases</p>
+            </div>
+            <div class="text-right">
+              <div class="text-sky-600 font-bold text-lg">$2.50</div>
+              <div class="text-xs text-slate-400">3–5 min</div>
+            </div>
+          </div>
+          <div class="mt-4 flex items-center justify-between">
+            <div class="text-xs text-slate-500">Available: 245</div>
+            <div><a href="#" class="px-3 py-1 bg-sky-600 text-white rounded">Start</a></div>
+          </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="bg-white p-5 rounded-xl shadow hover:shadow-lg">
+          <div class="flex justify-between items-start">
+            <div>
+              <h3 class="font-semibold">App Usability Test — Food Delivery</h3>
+              <p class="text-xs text-slate-500 mt-1">Record screen & provide feedback — specific steps provided</p>
+            </div>
+            <div class="text-right">
+              <div class="text-sky-600 font-bold text-lg">$12.00</div>
+              <div class="text-xs text-slate-400">10–15 min</div>
+            </div>
+          </div>
+          <div class="mt-4 flex items-center justify-between">
+            <div class="text-xs text-slate-500">Available: 38</div>
+            <div><a href="#" class="px-3 py-1 bg-sky-600 text-white rounded">Start</a></div>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="bg-white p-5 rounded-xl shadow hover:shadow-lg">
+          <div class="flex justify-between items-start">
+            <div>
+              <h3 class="font-semibold">Image Annotation — Street Scenes</h3>
+              <p class="text-xs text-slate-500 mt-1">Draw boxes around vehicles and traffic signs</p>
+            </div>
+            <div class="text-right">
+              <div class="text-sky-600 font-bold text-lg">$0.75</div>
+              <div class="text-xs text-slate-400">1–3 min</div>
+            </div>
+          </div>
+          <div class="mt-4 flex items-center justify-between">
+            <div class="text-xs text-slate-500">Available: 820</div>
+            <div><a href="#" class="px-3 py-1 bg-sky-600 text-white rounded">Start</a></div>
+          </div>
+        </article>
+
+        <!-- Card 4 -->
+        <article class="bg-white p-5 rounded-xl shadow hover:shadow-lg">
+          <div class="flex justify-between items-start">
+            <div>
+              <h3 class="font-semibold">Short Translation: EN → ES</h3>
+              <p class="text-xs text-slate-500 mt-1">Translate short UI phrases (5–10 words)</p>
+            </div>
+            <div class="text-right">
+              <div class="text-sky-600 font-bold text-lg">$3.50</div>
+              <div class="text-xs text-slate-400">3–6 min</div>
+            </div>
+          </div>
+          <div class="mt-4 flex items-center justify-between">
+            <div class="text-xs text-slate-500">Available: 64</div>
+            <div><a href="#" class="px-3 py-1 bg-sky-600 text-white rounded">Start</a></div>
+          </div>
+        </article>
+
+        <!-- Card 5 -->
+        <article class="bg-white p-5 rounded-xl shadow hover:shadow-lg">
+          <div class="flex justify-between items-start">
+            <div>
+              <h3 class="font-semibold">Moderation — Short Comments</h3>
+              <p class="text-xs text-slate-500 mt-1">Classify comments as safe / needs review</p>
+            </div>
+            <div class="text-right">
+              <div class="text-sky-600 font-bold text-lg">$1.20</div>
+              <div class="text-xs text-slate-400">2–4 min</div>
+            </div>
+          </div>
+          <div class="mt-4 flex items-center justify-between">
+            <div class="text-xs text-slate-500">Available: 190</div>
+            <div><a href="#" class="px-3 py-1 bg-sky-600 text-white rounded">Start</a></div>
+          </div>
+        </article>
+
+        <!-- Card 6 -->
+        <article class="bg-white p-5 rounded-xl shadow hover:shadow-lg">
+          <div class="flex justify-between items-start">
+            <div>
+              <h3 class="font-semibold">Receipt Upload — Grocery</h3>
+              <p class="text-xs text-slate-500 mt-1">Upload photo and enter purchase details</p>
+            </div>
+            <div class="text-right">
+              <div class="text-sky-600 font-bold text-lg">$1.50</div>
+              <div class="text-xs text-slate-400">5–7 min</div>
+            </div>
+          </div>
+          <div class="mt-4 flex items-center justify-between">
+            <div class="text-xs text-slate-500">Available: 120</div>
+            <div><a href="#" class="px-3 py-1 bg-sky-600 text-white rounded">Start</a></div>
+          </div>
+        </article>
+
+        <!-- Card 7 -->
+        <article class="bg-white p-5 rounded-xl shadow hover:shadow-lg">
+          <div class="flex justify-between items-start">
+            <div>
+              <h3 class="font-semibold">Short Voice Recording</h3>
+              <p class="text-xs text-slate-500 mt-1">Read short sentences for speech datasets</p>
+            </div>
+            <div class="text-right">
+              <div class="text-sky-600 font-bold text-lg">$4.00</div>
+              <div class="text-xs text-slate-400">5–10 min</div>
+            </div>
+          </div>
+          <div class="mt-4 flex items-center justify-between">
+            <div class="text-xs text-slate-500">Available: 42</div>
+            <div><a href="#" class="px-3 py-1 bg-sky-600 text-white rounded">Start</a></div>
+          </div>
+        </article>
+
+        <!-- Card 8 -->
+        <article class="bg-white p-5 rounded-xl shadow hover:shadow-lg">
+          <div class="flex justify-between items-start">
+            <div>
+              <h3 class="font-semibold">Short Research Task</h3>
+              <p class="text-xs text-slate-500 mt-1">Find product info and submit links</p>
+            </div>
+            <div class="text-right">
+              <div class="text-sky-600 font-bold text-lg">$2.80</div>
+              <div class="text-xs text-slate-400">8–12 min</div>
+            </div>
+          </div>
+          <div class="mt-4 flex items-center justify-between">
+            <div class="text-xs text-slate-500">Available: 76</div>
+            <div><a href="#" class="px-3 py-1 bg-sky-600 text-white rounded">Start</a></div>
+          </div>
+        </article>
+
+        <!-- Card 9 -->
+        <article class="bg-white p-5 rounded-xl shadow hover:shadow-lg">
+          <div class="flex justify-between items-start">
+            <div>
+              <h3 class="font-semibold">Short Copywriting — Ad Headline</h3>
+              <p class="text-xs text-slate-500 mt-1">Create short, catchy ad headlines</p>
+            </div>
+            <div class="text-right">
+              <div class="text-sky-600 font-bold text-lg">$6.00</div>
+              <div class="text-xs text-slate-400">10–15 min</div>
+            </div>
+          </div>
+          <div class="mt-4 flex items-center justify-between">
+            <div class="text-xs text-slate-500">Available: 14</div>
+            <div><a href="#" class="px-3 py-1 bg-sky-600 text-white rounded">Start</a></div>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="mt-8 text-center">
+        <a href="#categories" class="inline-flex items-center px-6 py-3 bg-sky-600 text-white rounded-md">Browse all categories</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Categories Expanded -->
+<section id="categories" class="bg-white py-12">
+  <div class="max-w-7xl mx-auto px-6 lg:px-8">
+    <div class="flex items-center justify-between mb-6">
+      <h2 class="text-2xl font-bold">Task Categories</h2>
+      <a href="#tasks" class="text-sky-600">See tasks →</a>
+    </div>
+
+    <div class="grid gap-6 md:grid-cols-3 lg:grid-cols-6">
+      <!-- many categories with descriptions to fill content -->
+      <div class="p-4 rounded-xl bg-slate-50 card-border text-center">
+        <div class="text-2xl">📝</div>
+        <div class="mt-2 font-semibold">Surveys</div>
+        <div class="text-sm text-slate-500 mt-1">Short questionnaires — quick payout</div>
+      </div>
+
+      <div class="p-4 rounded-xl bg-slate-50 card-border text-center">
+        <div class="text-2xl">📱</div>
+        <div class="mt-2 font-semibold">App Testing</div>
+        <div class="text-sm text-slate-500 mt-1">Mobile & web usability tests</div>
+      </div>
+
+      <div class="p-4 rounded-xl bg-slate-50 card-border text-center">
+        <div class="text-2xl">🖼️</div>
+        <div class="mt-2 font-semibold">Image Labeling</div>
+        <div class="text-sm text-slate-500 mt-1">Bounding boxes, tags, and attributes</div>
+      </div>
+
+      <div class="p-4 rounded-xl bg-slate-50 card-border text-center">
+        <div class="text-2xl">💬</div>
+        <div class="mt-2 font-semibold">Moderation</div>
+        <div class="text-sm text-slate-500 mt-1">Safe content checks & classification</div>
+      </div>
+
+      <div class="p-4 rounded-xl bg-slate-50 card-border text-center">
+        <div class="text-2xl">🌐</div>
+        <div class="mt-2 font-semibold">Translation</div>
+        <div class="text-sm text-slate-500 mt-1">Short phrase & UI translations</div>
+      </div>
+
+      <div class="p-4 rounded-xl bg-slate-50 card-border text-center">
+        <div class="text-2xl">📣</div>
+        <div class="mt-2 font-semibold">Social Tasks</div>
+        <div class="text-sm text-slate-500 mt-1">Engagement, follows, comments</div>
+      </div>
+
+      <div class="p-4 rounded-xl bg-slate-50 card-border text-center">
+        <div class="text-2xl">🔊</div>
+        <div class="mt-2 font-semibold">Audio & Voice</div>
+        <div class="text-sm text-slate-500 mt-1">Voice recordings & speech datasets</div>
+      </div>
+
+      <div class="p-4 rounded-xl bg-slate-50 card-border text-center">
+        <div class="text-2xl">🧾</div>
+        <div class="mt-2 font-semibold">Receipt & Form Entry</div>
+        <div class="text-sm text-slate-500 mt-1">Data extraction tasks</div>
+      </div>
+
+      <div class="p-4 rounded-xl bg-slate-50 card-border text-center">
+        <div class="text-2xl">✍️</div>
+        <div class="mt-2 font-semibold">Creative Microtasks</div>
+        <div class="text-sm text-slate-500 mt-1">Short copy, headlines, micro-designs</div>
+      </div>
+
+      <div class="p-4 rounded-xl bg-slate-50 card-border text-center">
+        <div class="text-2xl">🔍</div>
+        <div class="mt-2 font-semibold">Research Tasks</div>
+        <div class="text-sm text-slate-500 mt-1">Find & verify online information</div>
+      </div>
+
+      <div class="p-4 rounded-xl bg-slate-50 card-border text-center">
+        <div class="text-2xl">📊</div>
+        <div class="mt-2 font-semibold">Data Labeling</div>
+        <div class="text-sm text-slate-500 mt-1">Tagging & classification for ML</div>
+      </div>
+
+      <div class="p-4 rounded-xl bg-slate-50 card-border text-center">
+        <div class="text-2xl">⚙️</div>
+        <div class="mt-2 font-semibold">QA & Testing</div>
+        <div class="text-sm text-slate-500 mt-1">Functional checks & bug reports</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- How It Works - expanded with visuals -->
+<section id="how-it-works" class="max-w-7xl mx-auto px-6 lg:px-8 py-12">
+  <h2 class="text-2xl font-bold text-center mb-6">How It Works</h2>
+  <p class="text-center text-sm text-slate-600 max-w-2xl mx-auto mb-8">A clear, transparent flow for workers and employers. No hidden fees — typical platform fee is shown in Pricing below.</p>
+
+  <div class="grid md:grid-cols-2 gap-10">
+    <!-- Workers flow -->
+    <div class="bg-white p-6 rounded-xl shadow">
+      <h3 class="font-semibold text-lg">For Workers — Start Earning in 3 Steps</h3>
+      <div class="mt-4 space-y-4">
+        <div class="flex gap-4">
+          <div class="w-12 h-12 rounded-full bg-sky-50 flex items-center justify-center font-bold">1</div>
+          <div>
+            <div class="font-semibold">Sign up & verify</div>
+            <div class="text-sm text-slate-600">Quick identity verification (KYC) protects the community and enables fast payouts.</div>
+          </div>
+        </div>
+
+        <div class="flex gap-4">
+          <div class="w-12 h-12 rounded-full bg-sky-50 flex items-center justify-center font-bold">2</div>
+          <div>
+            <div class="font-semibold">Pick tasks & complete</div>
+            <div class="text-sm text-slate-600">Clear instructions and examples ensure higher approval rates.</div>
+          </div>
+        </div>
+
+        <div class="flex gap-4">
+          <div class="w-12 h-12 rounded-full bg-sky-50 flex items-center justify-center font-bold">3</div>
+          <div>
+            <div class="font-semibold">Submit & withdraw</div>
+            <div class="text-sm text-slate-600">Automatic checks + manual review. Withdraw to PayPal / Payoneer / crypto once approved.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-6">
+        <a href="#signup" class="px-4 py-2 bg-sky-600 text-white rounded-md">Join as Worker</a>
+      </div>
+    </div>
+
+    <!-- Employers flow -->
+    <div class="bg-white p-6 rounded-xl shadow">
+      <h3 class="font-semibold text-lg">For Employers — Get Fast, Reliable Results</h3>
+      <div class="mt-4 space-y-4">
+        <div class="flex gap-4">
+          <div class="w-12 h-12 rounded-full bg-slate-100 flex items-center justify-center font-bold">1</div>
+          <div>
+            <div class="font-semibold">Post tasks with templates</div>
+            <div class="text-sm text-slate-600">Use our templates to set acceptance criteria and validation rules.</div>
+          </div>
+        </div>
+
+        <div class="flex gap-4">
+          <div class="w-12 h-12 rounded-full bg-slate-100 flex items-center justify-center font-bold">2</div>
+          <div>
+            <div class="font-semibold">Automated & manual verification</div>
+            <div class="text-sm text-slate-600">Platform runs automated validations and allows manual spot-checks.</div>
+          </div>
+        </div>
+
+        <div class="flex gap-4">
+          <div class="w-12 h-12 rounded-full bg-slate-100 flex items-center justify-center font-bold">3</div>
+          <div>
+            <div class="font-semibold">Approve & download results</div>
+            <div class="text-sm text-slate-600">Approve submissions and export results in CSV/JSON. Release payments from escrow.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-6">
+        <a href="#post-task" class="px-4 py-2 border rounded-md">Post a Task</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Comparison table & pricing summary -->
+  <div class="mt-10 bg-slate-50 p-6 rounded-xl">
+    <h4 class="font-semibold mb-4">Platform Fees & Pricing (Transparent)</h4>
+    <p class="text-sm text-slate-600 mb-4">We charge a small commission to cover operational costs. No surprise fees. Example:</p>
+    <div class="overflow-x-auto">
+      <table class="w-full text-sm">
+        <thead>
+          <tr class="text-left text-slate-600">
+            <th class="pr-6 pb-2">Item</th>
+            <th class="pr-6 pb-2">Details</th>
+            <th class="pr-6 pb-2">Typical Fee</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="border-t">
+            <td class="py-3">Worker payout</td>
+            <td class="py-3">Amount shown on task (100% goes to worker, minus worker-side processing fee if any)</td>
+            <td class="py-3">—</td>
+          </tr>
+          <tr class="border-t">
+            <td class="py-3">Platform commission (charged to employer)</td>
+            <td class="py-3">Covers hosting, verification, escrow & customer support</td>
+            <td class="py-3">10%–20% of task value</td>
+          </tr>
+          <tr class="border-t">
+            <td class="py-3">Payment processor fees</td>
+            <td class="py-3">Depends on payout method (PayPal, Payoneer, crypto)</td>
+            <td class="py-3">0.5%–3%</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="text-xs text-slate-500 mt-3">*All fees are clearly shown before posting and at checkout.</p>
+  </div>
+</section>
+
+<!-- Security, Verification, and Trust -->
+<section class="max-w-7xl mx-auto px-6 lg:px-8 py-12 bg-white">
+  <h2 class="text-2xl font-bold text-center mb-6">Security, Verification & Trust</h2>
+  <div class="grid md:grid-cols-3 gap-6">
+    <div class="p-6 rounded-xl shadow">
+      <h4 class="font-semibold">Secure Payments</h4>
+      <p class="text-sm text-slate-600 mt-2">All payments flow through secure escrow. Employers fund tasks upfront; payments are released after approval to protect both parties.</p>
+    </div>
+    <div class="p-6 rounded-xl shadow">
+      <h4 class="font-semibold">Identity Verification</h4>
+      <p class="text-sm text-slate-600 mt-2">To prevent fraud and ensure payment compliance, workers complete a one-time KYC using a trusted provider. Only minimal information is needed.</p>
+    </div>
+    <div class="p-6 rounded-xl shadow">
+      <h4 class="font-semibold">Quality Controls</h4>
+      <p class="text-sm text-slate-600 mt-2">Automated checks and human spot checks maintain quality. Dispute resolution and appeal processes are available for rejected work.</p>
+    </div>
+  </div>
+
+  <div class="mt-8 text-center text-sm text-slate-500">We comply with data protection laws and never sell your personal information. See our <a href="#" class="text-sky-600">Privacy Policy</a> for details.</div>
+</section>
+
+<!-- Info Center (expanded) -->
+<section id="info" class="bg-slate-50 py-12">
+  <div class="max-w-7xl mx-auto px-6 lg:px-8">
+    <div class="flex items-center justify-between mb-6">
+      <h2 class="text-2xl font-bold">Info Center — Guides & Updates</h2>
+      <a href="#" class="text-sky-600">See all articles</a>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-6">
+      <article class="bg-white p-6 rounded-xl shadow">
+        <h3 class="font-semibold">Maximize Your Earnings — 10 Proven Tips</h3>
+        <p class="text-sm text-slate-600 mt-2">Actionable tips to increase approval rate, speed, and hourly earnings. Includes checklist and example task workflows.</p>
+        <a href="#" class="text-sky-600 mt-4 inline-block">Read article →</a>
+      </article>
+
+      <article class="bg-white p-6 rounded-xl shadow">
+        <h3 class="font-semibold">How to Write Clear Briefs (Employers)</h3>
+        <p class="text-sm text-slate-600 mt-2">Templates and examples to reduce rework and improve worker accuracy — sample acceptance criteria included.</p>
+        <a href="#" class="text-sky-600 mt-4 inline-block">Read article →</a>
+      </article>
+
+      <article class="bg-white p-6 rounded-xl shadow">
+        <h3 class="font-semibold">Payment Methods & Processing Times</h3>
+        <p class="text-sm text-slate-600 mt-2">PayPal, Payoneer, bank transfers, and crypto — typical processing times and fees.</p>
+        <a href="#" class="text-sky-600 mt-4 inline-block">Read article →</a>
+      </article>
+    </div>
+
+    <div class="mt-8 bg-white p-6 rounded-xl shadow">
+      <h4 class="font-semibold mb-4">Recent Platform Updates</h4>
+      <ul class="space-y-3 text-sm text-slate-600">
+        <li><strong>Sep 2025</strong> — Introduced faster crypto payouts (Beta)</li>
+        <li><strong>Aug 2025</strong> — New app-testing flow with screen recording</li>
+        <li><strong>Jul 2025</strong> — Improved fraud detection and dispute tools</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials & Logos -->
+<section class="max-w-7xl mx-auto px-6 lg:px-8 py-12 bg-white">
+  <h2 class="text-2xl font-bold text-center mb-6">Trusted by workers and businesses worldwide</h2>
+
+  <div class="flex items-center justify-center gap-8 flex-wrap mb-8">
+    <!-- placeholder logos -->
+    <div class="px-6 py-3 bg-slate-50 rounded">PayPal</div>
+    <div class="px-6 py-3 bg-slate-50 rounded">Payoneer</div>
+    <div class="px-6 py-3 bg-slate-50 rounded">Stripe</div>
+    <div class="px-6 py-3 bg-slate-50 rounded">Binance Pay</div>
+    <div class="px-6 py-3 bg-slate-50 rounded">Visa</div>
+  </div>
+
+  <div class="grid md:grid-cols-3 gap-6">
+    <div class="bg-slate-50 p-6 rounded-xl shadow">
+      <p class="italic">"UpWork helped us gather 5k labeled images in 72 hours. Quality was excellent and turnaround fast."</p>
+      <div class="mt-4 font-semibold">— Tech Product Manager, EU</div>
+    </div>
+    <div class="bg-slate-50 p-6 rounded-xl shadow">
+      <p class="italic">"I can make consistent part-time income completing short tasks. Withdrawals are fast and reliable."</p>
+      <div class="mt-4 font-semibold">— Maria, US</div>
+    </div>
+    <div class="bg-slate-50 p-6 rounded-xl shadow">
+      <p class="italic">"We reduced labeling costs by 60% using their microtask workflow."</p>
+      <div class="mt-4 font-semibold">— Startup Founder, MENA</div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ (expandable) -->
+<section class="bg-slate-50 py-12">
+  <div class="max-w-5xl mx-auto px-6 lg:px-8">
+    <h2 class="text-2xl font-bold text-center mb-6">Frequently Asked Questions</h2>
+    <div class="space-y-4">
+      <details class="bg-white p-4 rounded-xl shadow"><summary class="font-semibold">How do I get paid?</summary><div class="mt-2 text-sm text-slate-600">Payments are released after approval. You can withdraw to PayPal, Payoneer, bank transfer or supported crypto wallets. Typical processing time: 1–3 business days (varies by method).</div></details>
+
+      <details class="bg-white p-4 rounded-xl shadow"><summary class="font-semibold">Are tasks legitimate?</summary><div class="mt-2 text-sm text-slate-600">Yes. We vet employers and run automated checks to prevent fraudulent campaigns. If a task is suspicious, report it to support immediately.</div></details>
+
+      <details class="bg-white p-4 rounded-xl shadow"><summary class="font-semibold">Can I work from any country?</summary><div class="mt-2 text-sm text-slate-600">Most countries are supported, but some tasks are geo-restricted due to legal or survey provider rules. Check task details before starting.</div></details>
+
+      <details class="bg-white p-4 rounded-xl shadow"><summary class="font-semibold">What if my work is rejected?</summary><div class="mt-2 text-sm text-slate-600">You can appeal rejections via the dispute process. We provide evidence & feedback. Repeated low-quality submissions may lead to temporary holds.</div></details>
+    </div>
+  </div>
+</section>
+
+<!-- Newsletter CTA -->
+<section class="bg-white py-10">
+  <div class="max-w-3xl mx-auto px-6 text-center">
+    <h3 class="text-xl font-semibold mb-2">Get new tasks & tips in your inbox</h3>
+    <p class="text-sm text-slate-600 mb-4">Sign up for occasional emails about high-paying tasks and platform updates. We respect your inbox.</p>
+    <form class="flex gap-2 justify-center" onsubmit="event.preventDefault(); alert('Subscribed (demo)');">
+      <input type="email" placeholder="Email address" required class="border rounded px-3 py-2 w-64 text-sm" />
+      <button class="px-4 py-2 bg-sky-600 text-white rounded">Subscribe</button>
+    </form>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gray-900 text-gray-300 py-12">
+  <div class="max-w-7xl mx-auto px-6 lg:px-8 grid md:grid-cols-4 gap-8">
+    <div>
+      <div class="flex items-center gap-3 mb-4">
+        <div class="w-10 h-10 rounded bg-gradient-to-tr from-sky-600 to-cyan-400 flex items-center justify-center text-white font-bold">TF</div>
+        <div>
+          <div class="font-semibold text-white">UpWork</div>
+          <div class="text-xs">Microtasks • Honest Pay</div>
+        </div>
+      </div>
+      <p class="text-sm text-slate-400">Contact: <a href="mailto:support@taskflow.example" class="text-sky-400">support@taskflow.example</a></p>
+    </div>
+
+    <div>
+      <h4 class="font-semibold text-white mb-3">Workers</h4>
+      <ul class="space-y-2 text-sm">
+        <li><a href="#tasks" class="hover:text-white">Browse Tasks</a></li>
+        <li><a href="#how-it-works" class="hover:text-white">How it works</a></li>
+        <li><a href="#signup" class="hover:text-white">Sign up</a></li>
+        <li><a href="#info" class="hover:text-white">Info Center</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h4 class="font-semibold text-white mb-3">Employers</h4>
+      <ul class="space-y-2 text-sm">
+        <li><a href="#post-task" class="hover:text-white">Post a Task</a></li>
+        <li><a href="#pricing" class="hover:text-white">Pricing & Templates</a></li>
+        <li><a href="#trust" class="hover:text-white">Security & Trust</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h4 class="font-semibold text-white mb-3">Legal</h4>
+      <ul class="space-y-2 text-sm">
+        <li><a href="userterms.html" class="hover:text-white">Terms of Service</a></li>
+        <li><a href="privacy.html" class="hover:text-white">Privacy Policy</a></li>
+        <li><a href="#" class="hover:text-white">Dispute Resolution</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="max-w-7xl mx-auto px-6 lg:px-8 mt-8 text-sm text-slate-500 text-center">© <span id="year"></span> UpWork. All rights reserved.</div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
